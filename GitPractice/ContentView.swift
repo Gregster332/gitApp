@@ -30,6 +30,8 @@ struct ContentView: View {
             //some comm here
             
             Text("hi")
+            
+            Text("hello")
                 
         }
     }
