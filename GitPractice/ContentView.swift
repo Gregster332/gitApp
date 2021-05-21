@@ -9,8 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 30) {
             Text("Some code")
+            
+            
+            HStack {
+                
+                Text("Some text here")
+                
+                
+            }
         }
     }
 }
