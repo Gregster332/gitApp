@@ -24,7 +24,7 @@ struct ContentView: View {
                 .fill(Color.red.opacity(0.6))
                 .frame(width: 200, height: 100, alignment: .center)
             
-            Text("Нажми")
+            Text("Нажми на прямоугольник")
                 
         }
     }
