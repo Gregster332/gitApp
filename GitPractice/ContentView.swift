@@ -27,6 +27,7 @@ struct ContentView: View {
             Text("Нажми на прямоугольник")
             
             //comment here
+            //some comm here
                 
         }
     }
