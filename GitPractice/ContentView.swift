@@ -19,6 +19,11 @@ struct ContentView: View {
                 
                 
             }
+            
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Color.red.opacity(0.6))
+                .frame(width: 200, height: 100, alignment: .center)
+                
         }
     }
 }

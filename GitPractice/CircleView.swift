@@ -23,6 +23,7 @@ struct CircleView: View {
                     .fontWeight(.black)
             })
             
+            Spacer()
         }
     }
 }
