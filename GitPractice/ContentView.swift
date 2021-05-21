@@ -25,6 +25,8 @@ struct ContentView: View {
                 .frame(width: 200, height: 100, alignment: .center)
             
             Text("Нажми на прямоугольник")
+            
+            //comment here
                 
         }
     }
