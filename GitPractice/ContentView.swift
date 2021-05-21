@@ -16,6 +16,9 @@ struct ContentView: View {
             HStack {
                 
                 Text("Some text here")
+                Text("SecondText")
+                    .fontWeight(.black)
+                    .foregroundColor(Color.green)
                 
                 
             }
