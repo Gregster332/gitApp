@@ -28,6 +28,8 @@ struct ContentView: View {
             
             //comment here
             //some comm here
+            
+            Text("hi")
                 
         }
     }
