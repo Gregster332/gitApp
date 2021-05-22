@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var text: Bool = false
+    
     var body: some View {
         VStack(spacing: 30) {
             Text("Some code")
@@ -15,12 +18,8 @@ struct ContentView: View {
             
             HStack {
                 
-                Text("Some text here")
-                Text("SecondText")
-                    .fontWeight(.black)
-                    .foregroundColor(Color.green)
-                
-                
+                Text(text ? "Some text here" : "Hello")
+               
             }
             
             RoundedRectangle(cornerRadius: 10)
@@ -32,9 +31,12 @@ struct ContentView: View {
             //comment here
             //some comm here
             
-            Text("hi")
+          
             
-            Text("hello")
+            Toggle(isOn: $text) {
+                Text("Нажми")
+            }
+            .padding()
                 
         }
     }
